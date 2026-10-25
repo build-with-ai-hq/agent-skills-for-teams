@@ -1,3 +1,5 @@
+<img src="assets/banner.png" alt="agent-skills-for-teams: Write, version, review and ship Agent Skills across a team." width="100%">
+
 # agent-skills-for-teams
 
 [![skills.sh](https://skills.sh/b/build-with-ai-hq/agent-skills-for-teams)](https://skills.sh/build-with-ai-hq/agent-skills-for-teams)
