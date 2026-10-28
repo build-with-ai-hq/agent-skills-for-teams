@@ -179,7 +179,7 @@ Do not hand-copy into each. Use the skills CLI, which symlinks one canonical cop
 npx skills add your-org/team-skills --list                          # see what the repo offers
 npx skills add your-org/team-skills --skill db-migrations -a claude-code codex cursor -y
 npx skills add your-org/team-skills --skill db-migrations -g -a claude-code -y   # user-wide
-npx skills check                                                    # updates available?
+npx skills list                                                     # what is installed, and from where
 npx skills update db-migrations                                     # upgrade deliberately
 ```
 

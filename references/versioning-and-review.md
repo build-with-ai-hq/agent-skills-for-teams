@@ -93,8 +93,8 @@ npx skills add your-org/team-skills --skill db-migrations -a claude-code codex c
 # instead of a branch when you need a fixed revision
 npx skills add https://github.com/your-org/team-skills/tree/main/skills/db-migrations
 
-npx skills check            # what has updates
-npx skills update db-migrations
+npx skills list             # what is installed, and from where
+npx skills update db-migrations   # installs the latest version; review the diff before committing
 ```
 
 `skills experimental_sync` can install skills declared in `package.json` and records them in `skills-lock.json`; the CLI docs recommend pinning a Git ref there for reproducible remote content. It is experimental; check https://github.com/vercel-labs/skills/blob/main/docs/commands.md before relying on it.
